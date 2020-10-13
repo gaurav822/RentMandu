@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1005992741936",
+    "firebase_url": "https://rentmandu-4524a.firebaseio.com",
+    "project_id": "rentmandu-4524a",
+    "storage_bucket": "rentmandu-4524a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1005992741936:android:7f20c59e7c59957204f1f5",
+        "android_client_info": {
+          "package_name": "com.example.rentmandu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1005992741936-76trh8mjjbn4mht28e56fhlakjl5ph92.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rentmandu",
+            "certificate_hash": "9a97105acdd1426607cba2bc0fa666a3a931c038"
+          }
+        },
+        {
+          "client_id": "1005992741936-r7bqchjeglq32b14qaup4e4314q4opcs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBADrIdDfFxMQ2LkZJJ-TOGFmL9P10cdA4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1005992741936-r7bqchjeglq32b14qaup4e4314q4opcs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

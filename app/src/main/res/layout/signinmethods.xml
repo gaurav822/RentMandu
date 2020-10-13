@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="500dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Join Rentmandu"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:fontFamily="sans-serif-medium"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textColor="#232222"
+        android:text="Welcome to Rentmandu ! Join the community to find or sell rental services at kathmandu valley."/>
+
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:backgroundTint="#0759A1"
+        android:text="Continue with Google"
+        android:layout_gravity="center"
+        android:id="@+id/googlesignIN"
+        android:drawableLeft="@drawable/google"
+        app:cornerRadius="10dp"
+        android:elevation="8dp"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="By joining, you agree to Rentmandu's"
+            android:padding="10dp"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Terms of Service"
+            android:layout_marginLeft="-15dp"
+            android:padding="10dp"
+            android:textColor="#0BEF21"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
