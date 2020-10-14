@@ -72,7 +72,7 @@ public class MainActivity extends AppCompatActivity {
         cardView=(CardView) findViewById(R.id.findService);
 
         videoView=(VideoView) findViewById(R.id.video_view);
-        String videoPath= "android.resource://" + getPackageName() + "/" + R.raw.demoforrentmandu;
+        String videoPath= "android.resource://" + getPackageName() + "/" + R.raw.videohome;
         Uri uri=Uri.parse(videoPath);
         videoView.setVideoPath(String.valueOf(uri));
         videoView.start();
