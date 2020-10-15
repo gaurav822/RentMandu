@@ -1,60 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Homepage"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:id="@+id/fragment_container">
 
-    <LinearLayout
+
+
+
+    
+    
+    <com.ismaeldivita.chipnavigation.ChipNavigationBar
         android:layout_width="match_parent"
-        android:layout_height="70dp"
-        android:orientation="horizontal">
-
-        <TextView
-            android:id="@+id/name"
-            android:layout_width="0dp"
-            android:layout_weight="1"
-            android:layout_height="wrap_content"
-            android:padding="20dp"
-            android:textColor="@android:color/black"
-            android:textSize="20sp"
-            android:text="TextView" />
-
-
-        <de.hdodenhof.circleimageview.CircleImageView
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:id="@+id/user_profile_image"
-            android:layout_margin="10dp"/>
-
-
-    </LinearLayout>
-
-
-
-
-    <TextView
-        android:id="@+id/mail"
-        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="28dp"
-        android:textColor="@android:color/black"
-        android:padding="10dp"
-        android:textSize="20sp"
-        android:text="TextView"
-       />
+        app:cnb_menuResource="@menu/bottom_navigation_menu"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/white"
+        app:cnb_unselectedColor="@android:color/black"
+        app:cnb_radius="8dp"
+        app:cnb_iconSize="24dp"
+        app:cnb_orientationMode="horizontal"
+        android:layout_margin="20dp"
+        android:elevation="8dp"
+        android:id="@+id/bottom_nav_view"/>
 
-
-    <Button
-        android:id="@+id/logout"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:text="Logout"
-        android:layout_gravity="center"
-        />
-
-</LinearLayout>
+</RelativeLayout>

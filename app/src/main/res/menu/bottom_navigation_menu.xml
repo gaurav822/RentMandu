@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/bottom_nav_dashboard"
+        android:title="Dashboard"
+        android:icon="@drawable/bottom_nav_dashboard_icon"
+        app:cnb_iconColor="#1c94ec"/>
+
+    <item
+        android:id="@+id/bottom_nav_inbox"
+        android:title="Inbox"
+        android:icon="@drawable/ic_baseline_message_24"
+        app:cnb_iconColor="#1c94ec"/>
+
+    <item
+        android:id="@+id/bottom_nav_search"
+        android:title="Explore"
+        android:icon="@drawable/ic_baseline_search_24"
+        app:cnb_iconColor="#1c94ec"/>
+
+    <item
+        android:id="@+id/bottom_nav_notify"
+        android:title="Notifications"
+        android:icon="@drawable/ic_baseline_notifications_24"
+        app:cnb_iconColor="#1c94ec"/>
+
+    <item
+        android:id="@+id/bottom_nav_account"
+        android:title="Account"
+        android:icon="@drawable/bottom_nav_profile_icon"
+        app:cnb_iconColor="#1c94ec"/>
+
+
+
+</menu>
